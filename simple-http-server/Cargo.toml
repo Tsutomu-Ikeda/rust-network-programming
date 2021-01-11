@@ -1,0 +1,14 @@
+[package]
+name = "echo-server"
+version = "0.1.0"
+authors = ["tomtsutom <40418321+Tsutomu-Ikeda@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[profile.release]
+debug = true
+
+[dependencies]
+data-encoding = "2.3.1"
+rand = "0.8.0"
+ring = "0.16.19"
